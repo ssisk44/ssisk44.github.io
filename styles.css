@@ -120,7 +120,7 @@ nav.sticky .menu-btn{
 .home{
   height:100vh;
   width:100%;
-  background:url("images/background.jpg") no-repeat;
+  background:url("images/background.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -135,10 +135,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size:25px;
-  color:var(--black-color);
+  color:var(--white-color);
 }
 .home .text-two{
-  color:var(--black-color);
+  color:var(--white-color);
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -151,28 +151,9 @@ nav.sticky .menu-btn{
 .home .text-four{
   font-size: 23px;
   margin:5px 0;
-  color:var(--black-color);
-}
-.home .button{
-  margin:14px 0;
-}
-.home .button button{
-  outline:none;
-  padding:8px 16px;
-  border-radius: 6px;
-  font-size: 25px;
-  font-weight: 400;
-  background:var(--primary-color);
   color:var(--white-color);
-  cursor:pointer;
-  border:2px solid transparent;
-  transition: all 0.4s ease;
 }
-.home .button button:hover{
-  border-color:var(--primary-color);
-  background-color: var(--white-color);
-  color:var(--primary-color);
-}
+
 
 /* About Section Styling */
 section{
