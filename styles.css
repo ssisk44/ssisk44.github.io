@@ -95,8 +95,7 @@ nav.sticky .media-icons a{
 }
 
 /* side navigation Menu Button CSS */
-nav .menu-btn,
-.navbar .menu .cancel-btn{
+nav.navbar .menu .cancel-btn{
   position:absolute;
   color:var(--white-color);
   right:30px;
@@ -106,12 +105,7 @@ nav .menu-btn,
   transition: all 0.3s ease;
   display: none;
 }
-nav .menu-btn{
-  color:var(--primary-color);
-}
-nav.sticky .menu-btn{
-  color:var(--white-color);
-}
+
 .navbar .menu .menu-btn{
   color:var(--white-color);
 }
