@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 :root{
-    --primary-color:#ff8882;
+    --primary-color:#5dc95d;
     --black-color:#0E2431;
     --white-color:#fff;
 
@@ -235,56 +235,56 @@ section .button button:hover{
 }
 
 /* My Skills CSS */
-.skills{
+.projects{
   background:#f0f8ff;
 }
-.skills .content{
+.projects .content{
   padding:40px 0;
 }
-.skills .skills-details{
+.projects .projects-details{
   display:flex;
   justify-content: space-between;
   align-items: center;
 }
-.skills-details .text{
+.projects-details .text{
   width:50%;
 }
-.skills-details p{
+.projects-details p{
   color:var(--black-color);
   text-align: justify;
 }
-.skills .skills-details .experience{
+.projects .projects-details .experience{
   display:flex;
   align-items: center;
   margin:0 10px;
 }
-.skills-details .experience .num{
+.projects-details .experience .num{
   color:var(--black-color);
   font-size: 80px;
 }
-.skills-details .experience .exp{
+.projects-details .experience .exp{
   color:var(--black-color);
   margin-left: 20px;
   font-size: 18px;
   font-weight: 500;
   margin:0 6px;
 }
-.skills-details .boxes{
+.projects-details .boxes{
   width:45%;
   display:flex;
   flex-wrap: wrap;
   justify-content:space-between;
 }
-.skills-details .box{
+.projects-details .box{
   width:calc(100% / 2 - 20px);
   margin:20px 0;
 }
-.skills-details .boxes .topic{
+.projects-details .boxes .topic{
   font-size: 20px;
   color:var(--primary-color);
 }
-.skills-details .boxes .per{
-  font-size: 60px;
+.projects-details .boxes .per{
+  font-size: 15px;
   color:var(--primary-color);
 }
 
@@ -452,16 +452,16 @@ footer .text span a:hover{
     font-size: 35px;
   }
 
-  .skills .skills-details{
+  .projects .projects-details{
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .skills-details .text{
+  .projects-details .text{
     width:100%;
     margin-bottom:50px;
   }
-  .skills-details .boxes{
+  .projects-details .boxes{
     justify-content:center;
     align-items: center;
     width:100%;
@@ -485,7 +485,7 @@ footer .text span a:hover{
     font-size: 33px;
   }
 
-  .skills-details .boxes .per{
+  .projects-details .boxes .per{
     font-size: 50px;
     color:var(--primary-color);
   }

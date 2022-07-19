@@ -19,6 +19,7 @@ let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
 
+
 // Side Navigation Bar Close While We click On Navigation Links
 let navLinks = document.querySelectorAll(".menu li a");
 for (var i = 0; i < navLinks.length; i++) {
@@ -29,3 +30,15 @@ for (var i = 0; i < navLinks.length; i++) {
   });
 }
 
+console.log();
+
+
+// toggle visiblity of a section
+function sectionVisibility() {
+	let text = $("#kms");
+	if(text.is(":visible")) {
+		text.hide();
+	} else {
+		text.show();
+	}
+}

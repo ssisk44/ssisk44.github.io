@@ -1,164 +1,31 @@
 <!DOCTYPE html> 
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> Samuel Sisk | Portfolio </title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-  
-  <!-- navigation menu -->
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Portfolio.</a></div>
-      <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-      </div>
-    </div>
-  </nav>
+    <head>
+    	<meta charset="UTF-8">
+    	<title> Portfolio | Samuel Sisk </title>
+    	<link rel="stylesheet" href="styles.css">
+		<!-- jQuery -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    	<!-- Fontawesome CDN Link -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    	<!-- Includes Library? -->
+		<script src="https://unpkg.com/htmlincludejs"></script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
 
-  <!-- Home Section Start -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <div class="text">
-        <div class="text-one">Hello,</div>
-        <div class="text-two">I'm Sam Sisk</div>
-        <div class="text-three">Software Engineer/Data Analyst</div>
-        <div class="text-four">From the United States</div>
-      </div>
-    </div>
-  </section>
+	<body>
+		<!-- Navigation Menu -->
+		<include src="html/navMenuSection.jsx"></include>
 
-  <!-- About Section Start -->
-  <section class="about" id="about">
-    <div class="content">
-      <div class="title"><span>About Me</span></div>
-      <div class="about-details">
-        <div class="left">
-          <img src="images/black_background.jpg" alt="Portfolio">
-        </div>
-        <div class="right">
-          <div class="topic">Designing Is My Passion</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis debitis, quis aliquam unde sed maiores sit! Hic molestiae optio iste iure earum amet nostrum quaerat facere quae veniam maiores harum iusto aperiam vel inventore illo voluptatibus voluptates quo impedit voluptatum error vitae, omnis praesentium? Aperiam nulla non, nesciunt fuga rem perferendis alias et, temporibus, distinctio culpa unde a laborum libero ducimus. Facilis veniam sit praesentium, voluptatibus sint maxime iusto eaque.</p>
-          <div class="button">
-            <button>Download CV</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+		<!-- Home Section Start -->
+		<include src="html/homeSection.jsx"></include>
 
-  <!-- My Skill Section Start -->
-  <section class="skills" id="skills">
-    <div class="content">
-      <div class="title"><span>My Skills</span></div>
-      <div class="skills-details">
-        <div class="text">
-          <div class="topic">Skills Reflects Our Knowledge</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
-          <div class="experience">
-            <div class="num">10</div>
-            <div class="exp">Years Of <br> Experience</div>
-          </div>
-        </div>
-        <div class="boxes">
-          <div class="box">
-            <div class="topic">Python</div>
-            <div class="per">95%</div>
-          </div>
-          <div class="box">
-            <div class="topic">HTML/CSS/JS</div>
-            <div class="per">70%</div>
-          </div>
-          <div class="box">
-            <div class="topic">SAS</div>
-            <div class="per">60%</div>
-          </div>
-          <div class="box">
-            <div class="topic">AWS</div>
-            <div class="per">55%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+		<!-- Contact Section Start -->
+		<include src="html/contactSection.jsx"></include>
 
-  <!-- My Services Section Start -->
-  <section class="services" id="services">
-    <div class="content">
-      <div class="title"><span>My Expertise</span></div>
-      <div class="boxes">
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-quidditch"></i>
-          </div>
-          <div class="topic">Software Engineer</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-        </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-paint-brush"></i>
-          </div>
-          <div class="topic">Data Engineer</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-        </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <div class="topic">Data Analyst</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-        </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fab fa-wordpress"></i>
-          </div>
-          <div class="topic">Machine Learning</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-        </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-quidditch"></i>
-          </div>
-          <div class="topic">Sports R&D</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-        </div>
-        <div class="box">
-          <div class="icon">
-            <i class="fas fa-tablet-alt"></i>
-          </div>
-          <div class="topic">Apps Development</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Me Section Start -->
-  <section class="contact" id="contact">
-    <div class="content">
-      <div class="title"><span>Contact Me</span></div>
-      <div class="text">
-        <div class="topic">Have Any Projects?</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
-        <div class="button">
-          <button>Let's Chat</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script src="script.js"></script>
-</body>
+		<button id="vis_butn" onclick="sectionVisibility()">Toggle Visibility</button>
+		
+		<div id="kms">Please God let me disapear...</div>
+		<script src="script.js"></script>
+	</body>
 </html>
