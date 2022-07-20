@@ -1,4 +1,3 @@
-// <!-- About Section Start -->
 <section class="about" id="about">
 <div class="content">
 <div class="title"><span>About Me</span></div>

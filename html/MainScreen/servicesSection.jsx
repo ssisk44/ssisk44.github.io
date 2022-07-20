@@ -1,4 +1,3 @@
-<!-- My Services Section Start -->
 <section class="services" id="services">
     <div class="content">
       <div class="title"><span>My Expertise</span></div>

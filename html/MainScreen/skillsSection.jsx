@@ -1,4 +1,3 @@
- <!-- My Skill Section Start -->
  <section class="projects" id="projects">
     <div class="content">
       <div class="title"><span>Projects</span></div>
