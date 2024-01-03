@@ -30,11 +30,9 @@ for (var i = 0; i < navLinks.length; i++) {
   });
 }
 
-console.log();
-
-
 // toggle visiblity of a section
 function sectionVisibility() {
+  console.log(document);
 	let text = $("#kms");
 	if(text.is(":visible")) {
 		text.hide();
