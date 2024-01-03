@@ -1,4 +1,72 @@
-Testing New Version Control Setup On Development, try to merge this into production
+----------- Creating A Well Made Personal/Portfolio Wesbite -----------
+1) Required Features: Landing Page, Nav Bar, Project Porfolio, 
+pages for Projects (each made through model), 
+
+To Do: 
+create sandwhich nav bar
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+----------- Web Application Learning Reinforcement Project -----------
+
+done
+1) apply versioning system through github to allow for prs
+
+current
+2) write cron to collect weather data
+
+to do
+3) sqlite local storage or sql server for data
+4) write api to access and handle sql data for the website
+5) display weather on website
+   
+in the future it may be worth trying to do this with a different design stack
+
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------- general design notes -----------
 ##############################################################################################
 ##############################################################################################
 This is a designed to be my personal website and a way to display projects to come.
@@ -26,7 +94,7 @@ Here we go!
 
 ##############################################################################################
 3) IDEA PARKING LOT
-
+Github Client - https://cli.github.com/manual/gh_pr_create
 
 ##############################################################################################
 ##############################################################################################
