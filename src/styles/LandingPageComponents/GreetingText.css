@@ -1,0 +1,52 @@
+.greeting-text-container {
+	display: block;
+	position: inherit;
+	padding: 0;
+	margin: 0;
+	border: 1px solid aqua;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+
+.greeting-text-upper-container {
+	display: flex;
+	border: 1px solid black;
+	padding: 1em;
+	margin: 1em;
+	width: 50%;
+	height: 15%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.greeting-text{
+	display: flex;
+	border: 1px solid black;
+	padding: 1em;
+	margin: 1em;
+	width: 50%;
+	height: 5em;
+	font-size: 12pt;
+	flex-basis: 100;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.greeting-text-upper{
+	display: flex;
+	padding: 1em;
+	margin: 1em;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	text-justify: center;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}
