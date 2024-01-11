@@ -1,52 +1,46 @@
 .greeting-text-container {
-	display: block;
-	position: inherit;
-	padding: 0;
-	margin: 0;
-	border: 1px solid aqua;
+	display: inline-flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0;
 	align-items: center;
-	align-content: center;
-	justify-content: center;
+    justify-content: center;
+
+	width: 80%;
+	height: 40%;
+	border: 5px solid pink;
+	padding: 50px;
+	margin: 10vw;
 }
 
-
-.greeting-text-upper-container {
+.greeting-text-section {
 	display: flex;
-	border: 1px solid black;
-	padding: 1em;
-	margin: 1em;
-	width: 50%;
-	height: 15%;
+	min-height: 50px;
+	height: 20%;
+	border: 3px solid black;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-	vertical-align: middle;
+	padding: 0;
+	margin: 0;
 }
 
 .greeting-text{
-	display: flex;
+	width: fit-content;
+	height: fit-content;
 	border: 1px solid black;
-	padding: 1em;
-	margin: 1em;
-	width: 50%;
-	height: 5em;
-	font-size: 12pt;
-	flex-basis: 100;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	vertical-align: middle;
+	padding: 0;
+	margin: 0;
 }
 
-.greeting-text-upper{
-	display: flex;
-	padding: 1em;
-	margin: 1em;
-	width: 50%;
-	height: 100%;
-	text-align: center;
-	text-justify: center;
-	align-items: center;
-	justify-content: center;
-	vertical-align: middle;
+.gt-intro-section > * {
+	margin: .1em;
 }
+.gt-name-section {
+	min-height: 20vh;
+}
+.gt-name{
+	font-size: 8em;
+}
+
+

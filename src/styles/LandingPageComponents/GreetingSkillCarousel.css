@@ -4,7 +4,8 @@
 	margin: 0;
 	bottom: 5vh;
 	left: 0;
-	width: 50vw;
+	width: inherit;
+	min-height: 200px;
 	height: 20vh;
 	border: 2px solid black;
 }

@@ -10,13 +10,14 @@
 .greeting-section-container{
 	display: flexbox;
 	float: left;
-	width: 50%;
+	width: 100%;
 	border: 2px solid white;
 }
 
 .menu-section-container {
 	float: right;
-	width: 50%;
+	width: 0%;
+	visibility: hidden;
 	border: 2px solid white;
 }
 
