@@ -1,0 +1,23 @@
+.greeting-nav-button {
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	right: 0px;
+	height: auto;
+	width: auto;
+	padding: 1em;
+	text-decoration: none;
+	background-color: white;
+	border: .1em solid black;
+	color: black;
+	padding: 1em;
+	margin: .2em;
+	border-radius: 1em;
+	letter-spacing: .05rem;
+	font-weight: 900 bold;
+}
+
+.greeting-nav-button:hover{
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,46 @@
+.greeting-text-container {
+	display: inline-flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0;
+	align-items: center;
+    justify-content: center;
+
+	width: 80%;
+	height: 40%;
+	border: 5px solid pink;
+	padding: 50px;
+	margin: 10vw;
+}
+
+.greeting-text-section {
+	display: flex;
+	min-height: 50px;
+	height: 20%;
+	border: 3px solid black;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.greeting-text{
+	width: fit-content;
+	height: fit-content;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+}
+
+.gt-intro-section > * {
+	margin: .1em;
+}
+.gt-name-section {
+	min-height: 20vh;
+}
+.gt-name{
+	font-size: 8em;
+}
+
+

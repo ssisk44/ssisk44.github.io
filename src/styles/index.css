@@ -1,0 +1,107 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+/* Global Style Settings */
+html,body {
+	--primary-dark-color: #3A2449;
+	--primary-normal-color: #372772;
+	--primary-light-color: #8c92a5;
+	--accent-color: #94C595;
+	--highlight-color: #A1E8AF;
+	background-color: grey;
+	font-size: 12;
+	/* overflow-x: hidden;
+	overflow-y: hidden; */
+}
+*,
+*::before,
+*::after {
+	font-family: 'Playfair Display';
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* Text Theme */
+h1 {
+	font-weight: 900 bold;
+	font-size: 2em;
+}
+
+h2 {
+	font-weight: 700 bold;
+	font-size: 1.75em;
+}
+
+h3 {
+	font-weight: 500 bold;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 1.25em;
+}
+
+h5 {
+	font-weight: 400 bold;
+	font-size: 1em;
+}
+
+h6 {
+	font-weight: 300 bold;
+	font-size: .5em;
+}
+
+
+
+/* Color Theme */
+.primary-dark-color{
+	background-color: var(--primary-dark-color);
+}
+.primary-normal-color{
+	background-color: var(--primary-normal-color);
+}
+.primary-light-color{
+	background-color: var(--primary-light-color);
+}
+.accent-color{
+	background-color: var(--accent-color);
+}
+.highlight-color{
+	background-color: var(--highlight-color);
+}
+
+
+/* Component Themes */
+
+
+
+/* PAGE SIZING ADJUSTMENTS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/**/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	/**/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	/**/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	/**/
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	/**/
+}
