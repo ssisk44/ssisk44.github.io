@@ -1,6 +1,5 @@
 /* FONT IMPORTS */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&family=Rubik+Glitch&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Global Style Settings */
 html,body {
@@ -9,15 +8,21 @@ html,body {
 	--primary-light-color: #8c92a5;
 	--accent-color: #94C595;
 	--highlight-color: #A1E8AF;
-	background-color: grey;
+	background-color: black;
 	font-size: 12;
-	/* overflow-x: hidden;
-	overflow-y: hidden; */
+	height: 100vh;
+	width: 100vw;
+	min-height: 640px;
+	min-width: 640px;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 *,
 *::before,
 *::after {
-	font-family: 'Playfair Display';
+	font-family: 'Source Code Pro';
+	font-weight: 700;
+	color:white;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -25,9 +30,11 @@ html,body {
 	width: 100%;
 }
 
+
 /* Text Theme */
 h1 {
-	font-weight: 900 bold;
+	font-weight: 300;
+	font-family: "Rubik Glitch";
 	font-size: 2em;
 }
 
@@ -56,6 +63,11 @@ h6 {
 	font-size: .5em;
 }
 
+button{
+	font-weight: 300;
+	font-family: "Rubik Glitch";
+	font-size: 2em;
+}
 
 
 /* Color Theme */
@@ -74,6 +86,8 @@ h6 {
 .highlight-color{
 	background-color: var(--highlight-color);
 }
+
+
 
 
 /* Component Themes */

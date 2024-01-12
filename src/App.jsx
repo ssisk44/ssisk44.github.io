@@ -28,7 +28,6 @@ export default function App() {
 				<GreetingText />
 				<GreetingSkillCarousel />
 			</div>
-			
 			<div className="menu-section-container">
 				Menu Section
 			</div>

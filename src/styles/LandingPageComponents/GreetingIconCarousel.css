@@ -1,11 +1,37 @@
 .greeting-icon-carousel-container {
 	position: absolute;
+	display: block;
 	padding: 0;
 	margin: 0;
 	top: 0;
-	left: 5vh;
+	left: 0;
+	row-gap: 100px;
+
+	min-width: 125px;
 	width: 10vw;
-	min-width: 100px;
-	height: inherit;
-	border: 2px solid red;
+	height: 75vh;
+	max-width: 150px;
+	justify-content: space-between;
+}
+
+.carousel-card{
+	min-width: 75px;
+	min-height: 75px;
+	width: 100%;
+	height: 15%;
+	max-width: 100%;
+	max-height: 15%;
+	margin: 1em;
+}
+
+img {
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+	max-width: 100px;
+	max-height: 100px;
+	background-color: white;
+	border-radius: 2em;
+	padding: .2em;
 }

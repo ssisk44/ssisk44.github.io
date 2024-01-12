@@ -5,20 +5,20 @@
 	box-sizing: inherit;
 	display: flex;
 	height: 100vh;
+	border: 2px solid white;
 }
 
 .greeting-section-container{
-	display: flexbox;
+	display: flex;
 	float: left;
 	width: 100%;
-	border: 2px solid white;
+
 }
 
 .menu-section-container {
 	float: right;
 	width: 0%;
 	visibility: hidden;
-	border: 2px solid white;
 }
 
 

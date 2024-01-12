@@ -7,7 +7,10 @@
     justify-content: center;
 
 	width: 80%;
+	min-width: 60%;
 	height: 40%;
+	min-height: 400px;
+
 	border: 5px solid pink;
 	padding: 50px;
 	margin: 10vw;
@@ -15,9 +18,9 @@
 
 .greeting-text-section {
 	display: flex;
-	min-height: 50px;
+	min-height: 10%;
+	min-width: 500px;
 	height: 20%;
-	border: 3px solid black;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -44,3 +47,41 @@
 }
 
 
+
+
+
+/* PAGE SIZING ADJUSTMENTS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.gt-name-section{
+		font-size: .5em;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.gt-name-section{
+		font-size: .6em;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.gt-name-section{
+		font-size: .6em;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.gt-name-section{
+		font-size: .8em;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.gt-name-section{
+		font-size: 1em;
+	}
+}
