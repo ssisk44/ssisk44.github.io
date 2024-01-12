@@ -1,10 +1,48 @@
 import "../../styles/LandingPageComponents/GreetingNavButton.css";
+import { useEffect, useRef, useState } from "react";
+import gsap from "gsap"; // <-- import GSAP
+
 
 function GreetingNavButton() {
-    return <button className="greeting-nav-button">{'<'}</button>;
+    let tl = useRef(null);
+    const [menuIsOpen, setMenuIsOpen] = useState(false);    
+
+    function openMenu(){
+        // Set Menu Opening Animation
+        if (tl.current == null){
+            let menuTL = gsap.timeline({});
+            menuTL.to(".greeting-nav-button", { rotation: -90, duration: 1, opacity: 100, x: "-60vw" }, 0)
+            menuTL.to(".greeting-section-container", { duration: 1, opacity: 1, width: '40vw' }, 0)
+            menuTL.to(".menu-container", { duration: 1, opacity: 100, width: '60vw', visibility: "visible" }, 0)
+           
+            tl.current = menuTL;
+        }
+
+        /* Ternary Opening/Closing Menu Animation*/
+        !menuIsOpen ? tl.current.play() : tl.current.reverse()
+        
+        setMenuIsOpen(!menuIsOpen);
+    }
+
+    return (
+        <button className="greeting-nav-button" onClick={openMenu}>{'<'}</button>
+    );
 }
 
 export default GreetingNavButton;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //   import '../styles/TestComponent.css'
 

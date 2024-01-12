@@ -3,11 +3,11 @@
 
 /* Global Style Settings */
 html,body {
-	--primary-dark-color: #3A2449;
-	--primary-normal-color: #372772;
-	--primary-light-color: #8c92a5;
-	--accent-color: #94C595;
-	--highlight-color: #A1E8AF;
+	--primary-dark-color: #000000;
+	--primary-normal-color: #868686;
+	--primary-light-color: #ffffff;
+	--accent-color: #993b3b;
+	--highlight-color: #5fe0e9;
 	background-color: black;
 	font-size: 12;
 	height: 100vh;

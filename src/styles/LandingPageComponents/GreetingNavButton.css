@@ -6,13 +6,14 @@
 	right: 0px;
 	min-width: 50px;
 	min-height: 50px;
-	height: 4vw;
-	width: 4vw;
+	height: 3vw;
+	width: 3vw;
 	background-color: white;
 	border: .1em solid black;
 	color: black;
 	padding: .1em;
 	margin: .1em;
+	font-size: 2em;
 	border-radius: .2em;
 }
 
