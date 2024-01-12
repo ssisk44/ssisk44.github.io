@@ -1,9 +1,10 @@
 import "../../styles/LandingPageComponents/GreetingSkillCarousel.css";
 
+
 function GreetingSkillCarousel() {
     return (
         <div className="greeting-skill-carousel-container">
-            GreetingSkillCarousel
+            Skill Carousel
         </div>
     );
 }

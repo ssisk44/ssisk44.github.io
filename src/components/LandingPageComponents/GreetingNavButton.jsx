@@ -1,7 +1,7 @@
 import "../../styles/LandingPageComponents/GreetingNavButton.css";
 
 function GreetingNavButton() {
-    return <button className="greeting-nav-button">Menu</button>;
+    return <button className="greeting-nav-button">{'<'}</button>;
 }
 
 export default GreetingNavButton;
