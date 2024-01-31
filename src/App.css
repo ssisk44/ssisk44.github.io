@@ -1,21 +1,6 @@
-/* STYLES */
-
-/* App Level Inheritance */
 .landing-page-container{
 	box-sizing: inherit;
-	display: inline-flex;
-	height: 100vh;
-	border: 2px solid white;
-}
-
-.greeting-section-container{
 	display: flex;
-	float: left;
+	height: 100vh;
 	width: 100vw;
-}
-
-.menu-container {
-	float: right;
-	width: 0vw;
-	visibility: hidden;
 }

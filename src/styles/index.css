@@ -8,33 +8,30 @@ html,body {
 	--primary-light-color: #ffffff;
 	--accent-color: #993b3b;
 	--highlight-color: #5fe0e9;
-	background-color: black;
 	font-size: 12;
 	height: 100vh;
 	width: 100vw;
 	min-height: 640px;
 	min-width: 640px;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	/* overflow-x: hidden;
+	overflow-y: hidden; */
 }
 *,
 *::before,
 *::after {
 	font-family: 'Source Code Pro';
 	font-weight: 700;
-	color:white;
+	color:black;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	height: 100%;
-	width: 100%;
 }
 
 
 /* Text Theme */
 h1 {
 	font-weight: 300;
-	font-family: "Rubik Glitch";
+	/* font-family: "Rubik Glitch"; */
 	font-size: 2em;
 }
 
@@ -62,6 +59,7 @@ h6 {
 	font-weight: 300 bold;
 	font-size: .5em;
 }
+
 
 button{
 	font-weight: 300;
