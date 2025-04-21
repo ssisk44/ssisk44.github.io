@@ -1,7 +1,26 @@
-# Sams Portfolio Webpage
-#### by Samuel Sisk
-<br>
+## DEMO TODO
+- Home Section
+	- Full View
 
-### CSS Stylistic Choices
-1) CSS files associated with React components should be in a mirrored file structure to the "components" folder.
-2) Custom components should use the singular return html object tags to immediately invoke local class "container" styles. Do not add a className property to a custom component invokation.
+- About Us Section
+	- About - DONE
+	- Our Team - Gallery
+	- FAQ - 
+
+- Services Section
+	- Services Overview 
+	- Custom Homes
+	- Remodeling
+
+- Why Us Section
+	- Why Us?
+	- Testimonials - DONE
+
+- Where We Build Section
+	- Location/Area Overview 
+
+- Gallery Section
+	- Inspiration Gallery Page - Gallery
+
+- Contact Section
+	- Contact
